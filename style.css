@@ -1,6 +1,13 @@
 @import url(reset.css);
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
+:root {
+  --DARK-GREYISH-BLUE: hsl(217, 19%, 35%);
+  --DESATURATED-DARK-BLUE: hsl(214, 17%, 51%);
+  --GRAYISH-BLUE: hsl(212, 23%, 69%);
+  --LIGHT-GRAYISH-BLUE: hsl(210, 46%, 95%);
+}
+
 * {
   font-family: "Manrope", sans-serif;
 }
@@ -11,4 +18,8 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.hidden {
+  display: none;
 }
